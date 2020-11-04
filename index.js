@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 var bodyParser = require('body-parser')
 var cookieParser = require('cookie-parser')
-var path = require(path)
+var path = require('path')
 
 app.use(cookieParser())
 
