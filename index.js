@@ -6,9 +6,9 @@ app.get('/',function(req,res){
 })
 
 app.get('/mensagem',function(req,res){
-    res.send("Essa mensagem e automatica !")
+    res.send("Essa mensagem e automatica!!")
 })
 
 app.listen(3000,function(){
-    console.log("Conexao inicializada na porta 3000")
+    console.log("Conexao inicializada")
 })
